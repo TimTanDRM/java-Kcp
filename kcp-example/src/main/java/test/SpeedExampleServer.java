@@ -30,7 +30,7 @@ public class SpeedExampleServer implements KcpListener {
         channelConfig.setUseConvChannel(true);
         channelConfig.setCrc32Check(false);
         KcpServer kcpServer = new KcpServer();
-        kcpServer.init(speedExampleServer,channelConfig,20004);
+        kcpServer.init(speedExampleServer,channelConfig,22102);
     }
 
     long start = System.currentTimeMillis();
